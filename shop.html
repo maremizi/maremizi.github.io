@@ -3,11 +3,76 @@
      <head>
        <title>MareMizi's Shop | Shop</title>
        <link rel="icon" type="x-icon" href="icon.png">
+       <style>
+         
+        body {
+               background-color: rgb(78, 7, 7);
+               margin: 0;
+               font-family: Arial, sans-serif;
+           }
+           .navbar {
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               padding: 10px 20px;
+               background-color: rgba(0, 0, 0, 0.8);
+           }
+           .navbar img {
+               height: 50px;
+           }
+           .navbar a {
+               margin-left: 15px;
+               text-decoration: none;
+               color: white;
+               font-size: 16px;
+               padding: 10px 20px;
+               border-radius: 20px;
+               border: 1px solid white;
+               transition: all 0.3s ease;
+           }
+           .navbar a:hover {
+               background-color: white;
+               color: rgb(78, 7, 7);
+           }
+           .center {
+               display: block;
+               margin-left: auto;
+               margin-right: auto;
+           }
+           h1 {
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               color: white;
+               text-align: center;
+           }
+           .button {
+               display: inline-block;
+               background-color: #7c0505;
+               color: white;
+               padding: 10px 20px;
+               text-decoration: none;
+               font-size: 16px;
+               border-radius: 5px;
+               text-align: center;
+               transition: background-color 0.3s ease;
+           }
+           .button:hover {
+               background-color: #a50b0b;
+           }
+           .button-container {
+               text-align: center;
+               margin-top: 20px;
+           }
+       
+      </style>
     </head>
  <body>
 
    <h1>You can browse Clients here</h1>
-   <a class="button" href="https://maremizi.github.io/">Home</a>
-   <a class="button" href="https://maremizi.github.io/products/leakclient">Leak Client</a>
+   <div class="button-container">
+    <a class="button" href="https://maremizi.github.io/">Home</a>
+   </div>
+   <div class="button-container">
+    <a class="button" href="https://maremizi.github.io/products/leakclient">Leak Client</a>
+   </div>
  </body>
 </html>
